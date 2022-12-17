@@ -1,0 +1,599 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    list-style: none;
+    text-decoration: none;
+}
+/*Header start*/
+
+
+
+.header .bg-light{
+    background-color: #171d20 !important;
+}
+
+.header .navbar-brand{
+    color: #fff !important;
+    text-transform: uppercase;
+    font-weight: 700;
+    
+    
+}
+
+.header .nav-item .nav-link{
+    color: #fff !important;
+    text-transform: uppercase;
+    padding-left: 12px !important;   
+    
+}
+
+.header .nav-item{
+    padding-right: 25px;
+}
+
+.navbar-light .navbar-toggler-icon {
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/Menu%2C_Web_Fundamentals_%28White%29.svg/1280px-Menu%2C_Web_Fundamentals_%28White%29.svg.png) !important;
+
+}
+
+.header .nav-item .nav-link:hover{
+     
+    color: burlywood !important;
+    transition-duration: 0.5s;
+    
+}
+
+/*header end*/
+
+/*bottomhead start*/
+.bottomhead{
+    width: 100%;
+    height: 700px;
+    background: url(image/bg1.png);
+    background-position: center;
+    background-size: cover;
+
+}
+.bottomhead h1 {
+    padding-top: 13rem;
+    font-size:50px;
+    color: #dcdcdc;
+    text-transform: uppercase;
+    font-weight: 200;
+   
+  
+    
+}
+
+.bottomhead h2 {
+    
+    font-size:40px;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 800;
+ 
+}
+
+.bottomhead h3 {
+    
+    font-size:20px;
+    color: #dcdcdc;
+    text-transform: uppercase;
+    border-left: 4px solid burlywood;
+    padding: 12px;
+    width: 50%;
+    
+    font-weight: 300;
+}
+
+
+/*bottomhead end*/
+
+/*about start*/
+.about{
+    padding: 90px;
+    background-color: #171d20;
+    
+}
+.about h4{
+    color: white;
+}
+.about h2{
+    color: white;
+}
+.about p{
+    color: white;
+}
+.about i.fa.fa-address-card {
+    color: burlywood;
+}
+.skils{
+    background-color: #303030;
+    padding: 25px;
+}
+.skils h4{
+    font-size: 18px;
+}
+.skils i.fa.fa-star {
+    color: burlywood;
+}
+.skils i.fa.fa-star-half-o {
+    color: burlywood;
+}
+/*about end*/
+
+
+
+/*Service Start*/
+.services{
+    background-color: #303030;
+    padding: 95px;
+}
+.services .row {
+    margin-right: -15px;
+    margin-left: -15px;
+    color: white;
+}
+.services i.fa.fa-briefcase{
+    color: burlywood;
+}
+.services h5{
+    color: white;
+}
+.services h2{
+    color: white;
+    margin-bottom: 30px;
+}
+
+.service {
+    text-align: center;
+    background: #1d1d1d;
+    padding: 21px;
+    margin-bottom: 24px;
+}
+
+.service i.fa.fa-paint-brush {
+    color: burlywood;
+}
+.service i.fa.fa-handshake-o {
+    color: burlywood;
+}
+.service i.fa.fa-television {
+    color: burlywood;
+}
+
+.service .fa{
+    padding-bottom: 30px;
+}
+
+/*Service end*/
+
+/*Resume start*/
+
+.Resume{
+
+    background-color: #171d20;
+    padding: 75px;
+}
+.Resume h4{
+    color: white;
+}
+.Resume h2{
+    color: white;
+    padding-bottom: 15px;
+    font-size: 30px;
+}
+.Resume i.fa.fa-info-circle{
+    color: burlywood;
+}
+.Resume-col {
+    color: white;
+    background-color: #303030;
+    padding: 15px;
+    margin-bottom: 25px;
+    border-top: 3px solid burlywood;
+}
+.Resume-col h3{
+    font-size: 20px;
+}
+.Resume-col h5{
+    font-size: 15px;
+    padding-bottom: 10px;
+}
+.Resume-col p{
+    border-top: 1px solid #171d20;
+    padding-top: 10px;
+    font-size: 15px;
+    
+}
+.Resume .year{
+    padding: 0;
+    color:  burlywood;;
+}
+
+/*Resume end*/
+
+
+/*Work end*/
+.work{
+    background: #303030;
+    padding: 50px;
+}
+.work h4{
+    color: white;
+}
+.work h2{
+    color: white;
+    padding-bottom: 15px;
+    font-size: 30px;
+}
+.work i.fa.fa-bookmark{
+    color: burlywood;
+}
+.work .img-work {
+    margin-bottom: 30px;
+}
+.work .contant{
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 28px;
+}
+.work .overlay{
+    position: absolute;
+    left: 15px;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    height: 91.5%;
+    width: 92%;
+    opacity: 0;
+    transition: 0.5s ease;
+    background-color: rgba(222, 184, 135,0.9);
+} 
+
+.img-work:hover .overlay{
+    opacity: 1;
+}
+
+.work .btn-primary{
+    background-color: burlywood;
+    border: 2px solid burlywood;
+    outline: none;
+}
+.work .btn-primary:hover{
+    background-color: rgb(173, 145, 107);
+    border: 2px solid burlywood;
+}
+.work .btn-primary:focus{
+    box-shadow: 4px 4px 20px -1px #171d20 !important;
+    border: 2px solid burlywood !important;
+    background-color:rgb(173, 145, 107) !important ;
+  }
+
+
+/*work end*/
+
+/*statistic start*/
+
+.statistic{
+    background-color: #171d20;
+    text-align: center;
+    padding: 25px;
+}
+
+.statistic h3{
+    color: #fff;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+.statistic i.fa{
+    color: burlywood;
+    padding-bottom: 20px;
+    
+}
+
+.statistic .counter{
+    font-weight: 700;
+    font-size: 30px;
+    color: #fff;
+}
+
+.statistic .cont  {
+    padding: 20px;
+    box-shadow: 4px 4px 20px -1px #000000;
+}
+
+
+/*statistic end*/
+
+/* blog start*/
+
+.blog{
+    background-color: #303030;
+    color: #fff;
+    padding: 25px;
+}
+
+.blog h2 {
+    padding-bottom: 21px;
+}
+.blog h4 {
+    text-transform: uppercase;
+}
+
+.blog .fa{
+    color: burlywood;
+}
+
+.blog i.fa.fa-calendar{
+    color: rgb(126, 126, 126);
+}
+
+
+
+.blog .more-f{
+    background-color: #171d20;
+    padding: 20px;
+}
+
+.post-img{
+    overflow: hidden;
+}
+
+.post-img img{
+    transition: all 1.5s ease;
+    
+}
+
+.post-img:hover  img{
+    transform: scale(1.5);
+}
+
+.blog .img-thumbnail {
+    border-radius: 0 !important;
+    background: transparent;
+  
+}
+
+.blog .btn-primary{
+    background-color: burlywood;
+    border: 2px solid burlywood;
+    outline: none;
+    font-size: 15px;
+}
+.blog .btn-primary:hover{
+    background-color: rgb(173, 145, 107);
+    border: 2px solid burlywood;
+
+}
+.blog .btn-primary:focus{
+    box-shadow: 4px 4px 20px -1px #171d20 !important;
+    border: 2px solid burlywood !important;
+    background-color:rgb(173, 145, 107) !important ;
+   
+  }
+
+.blog h6{
+
+    color: rgb(126, 126, 126);
+
+  }
+
+
+/* blog end*/
+
+/* contact  start*/
+
+.contact{
+    background-color: #171d20;
+    padding: 40px;
+}
+
+
+.contact h2 {
+    
+    color: #fff;
+    padding-bottom: 20px
+}
+.contact h4 {
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.contact .fa{
+    color: burlywood;
+}
+.contact label{
+    color: #fff;
+}
+.contact .col-md-4{
+    text-align: center;
+    color:#fff;
+}
+
+.contact textarea {
+
+    height: 120px;
+    resize: none;
+    padding-top: 18px;
+}
+
+.contact input {
+    border-radius: 0px;
+    background: #303030;
+    height: 45px;
+}
+
+.contact textarea {
+    border-radius: 0px;
+    background: #303030;
+    height: 45px;
+}
+
+
+
+
+.form-control:focus{
+    box-shadow: 0px 0px 0px 0px #171d20 !important;
+    border: 1px solid burlywood !important;
+    background-color:#303030 !important ;
+  }
+  .contact .form-group {
+    margin-bottom: 45px !important;
+}
+
+.contact .contact-box{
+    padding-bottom: 55px ;
+}
+
+.contact .btn-primary:hover{
+    background-color: rgb(173, 145, 107);
+    border: 2px solid burlywood;
+
+}
+.contact .btn-primary:focus{
+    box-shadow: 4px 4px 20px -1px #171d20 !important;
+    border: 2px solid burlywood !important;
+    background-color:rgb(173, 145, 107) !important ;
+   
+  }
+
+  .contact .btn-primary{
+    background-color: burlywood;
+    border: 2px solid burlywood;
+    outline: none;
+    font-size: 15px;
+    padding: 10px;
+    text-transform: uppercase;
+    border-radius: 30px;
+    color: black;
+    font-weight: 700;
+}
+
+
+/* contact end*/
+
+.footer{
+    background-color: #303030;
+    padding: 50px;
+    color: #fff;
+    
+}
+
+.footer i.fab {
+    padding-left: 20px;
+    color: burlywood;
+}
+
+
+
+.footer label{
+    text-transform: uppercase;
+    font-weight: 800;
+    color: burlywood;
+}
+
+
+
+
+
+
+
+
+
+
+/*Mobile*/
+
+@media (max-width:575px){
+
+    /*bottom header Start*/
+    .bottomhead h3 {
+    
+       
+        width: 60%;
+       
+    }
+
+      /*bottom header end*/
+
+      /*about start*/
+    .skills-inner{
+        text-align: center;
+    }
+    
+    .about h4{
+        padding-top: 50px;
+    }
+    .about h2{
+        padding-bottom: 35px;
+    }
+    .about p{
+        width: 100%;
+    }
+    .about{
+        padding: 0;
+        background-color: #171d20;
+        
+    }
+    .skils{
+        margin-bottom: 50px;
+    }
+    /*about end*/
+
+    /*services start*/
+    .service {
+      
+        margin-left: -65px;
+    width: 166%;
+        
+    }
+    /*services end*/
+
+     /*Resume start*/
+     .Resume{
+        padding: 10px;
+
+     }
+     .Resume{
+        padding-top:50px;
+
+     }
+     
+     /*Resume end*/
+
+    /*Resume start*/
+     .work .overlay {
+        height: 88%;
+        width: 89.5%;
+     }
+     /*Resume end*/
+
+     /* blog start*/
+     .blog .col-md-4 {
+        padding-bottom: 40px;
+    }
+    /* blog end*/
+
+     
+/* contact start*/
+.contact form{
+    padding-bottom: 30px;
+}
+
+/* contact end*/
+}
+
+@media (max-width:767px){
+   
+}
+
+/*Mobile*/
+
+
+
